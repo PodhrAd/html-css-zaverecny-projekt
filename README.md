@@ -125,22 +125,22 @@ Tlačítko se chová také responzivně, mění se mu velikost písma a padding.
 
 ## Hlavička stránky
 
-- celá hlavička má padding nahoře a dole `20px`
+<!-- - celá hlavička má padding nahoře a dole `20px` -->
 
 **Logo**:
-- na mobilu má výšku `35px`
+<!-- - na mobilu má výšku `35px` -->
 - na desktopu má výšku `45px`
 
 **Položky menu (odkazy)**:
 - **Na mobilu:**
-  - `display: inline-block;` aby jim šel nastavit padding
-  - padding nahoře a dole `10px`, vlevo a vpravo `15px`
-  - velikost písma `1.25rem`
-  - tloušťka písma `500`
-  - písmo není podtržené
-  - barva textu `--color-secondary-dark`
-  - border radius `100vw` (aby bylo tlačítko na koncích kompletně kulaté)
-  - při najetí myší (nebo klávesnicí) se barva pozadí nastaví na `--color-secondary-bright`
+  <!-- - `display: inline-block;` aby jim šel nastavit padding -->
+  <!-- - padding nahoře a dole `10px`, vlevo a vpravo `15px` -->
+  <!-- - velikost písma `1.25rem`
+  - tloušťka písma `500` -->
+  <!-- - písmo není podtržené -->
+  <!-- - barva textu `--color-secondary-dark` -->
+  <!-- - border radius `100vw` (aby bylo tlačítko na koncích kompletně kulaté)
+  - při najetí myší (nebo klávesnicí) se barva pozadí nastaví na `--color-secondary-bright` -->
 - **Na tabletu:**
   - padding se změní na `10px` nahoře a dole, `20px` vlevo a vpravo
 - **Na desktopu:**

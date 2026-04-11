@@ -69,6 +69,38 @@ footer {
 
 .container{
   max-width: 540px;
-  text-align: center; /*tady si nejsem jistá, jestli to vycentruje tu sekci doprostřed*/
+  margin: 0 auto;
+  align-items: center; /*tady si nejsem jistá, jestli to vycentruje tu sekci doprostřed*/
   padding: 0 20px 0 20px;
+}
+
+/*sekce hlavička a navigace*/
+
+.logo_brisko img{
+  height: 35px;
+}
+
+.logo_brisko{
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*Navigace*/
+.navigace{
+  display: inline-block;
+}
+
+.nav__link{
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--color-secondary-dark);
+  border-radius: 100vw;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  background: var(--color-secondary-bright);
 }
