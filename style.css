@@ -1,6 +1,20 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 :root {
   --color-primary: #ec5600;
   --color-primary-dark: #db5000;
@@ -11,6 +25,8 @@ html { box-sizing: border-box; }
   --color-section-bg: #f5f5f1;
   --color-text: #172126;
   --color-footer-bg: #2c2f24;
+  --styl-pisma-nadpisy: "playfair Dispaly", serif;
+  --styl-pisma-ostatni: "DM Sans", sans-serif;
 
   --radius: 12px;
 }
