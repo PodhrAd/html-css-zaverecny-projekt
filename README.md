@@ -32,7 +32,9 @@ Stránka má tři responzivní varianty, říkejme jim zjednodušeně *mobil*, *
 
 ## Prvky společné pro celou stránku
 
-### Písmo
+- co je zakomentováno, je hotovo
+
+<!-- ### Písmo
 
 - [Playfair Display](https://fonts.google.com/specimen/Playfair+Display) - písmo pro nadpisy `h1` a `h2`
 - [DM Sans](https://fonts.google.com/specimen/DM+Sans) - písmo pro všechny ostatní texty na stránce
@@ -43,41 +45,41 @@ Stránka má tři responzivní varianty, říkejme jim zjednodušeně *mobil*, *
 - písmo **DM Sans**
 - velikost písma: `1.125rem`
 - výška řádku `1.4`
-- barva `--color-text`
+- barva `--color-text` -->
 
 #### Nadpis h1
 
-- písmo **Playfair Display**
+<!-- - písmo **Playfair Display** -->
 - velikost písma:
-  - mobil: `3.5rem`
+  <!-- - mobil: `3.5rem` -->
   - tablet: `4rem`
   - desktop: `5rem`
-- tloušťka písma `400`
-- výška řádku `1`
+<!-- - tloušťka písma `400`
+- výška řádku `1` -->
 
 #### Nadpisy h2
 
-- písmo **Playfair Display**
+<!-- - písmo **Playfair Display** -->
 - velikost písma:
-  - mobil: `2.5rem`
+  <!-- - mobil: `2.5rem` -->
   - tablet: `3rem`
   - desktop: `3.5rem`
-- tloušťka písma `500`
-- výška řádku `1.2`
+<!-- - tloušťka písma `500`
+- výška řádku `1.2` -->
 
-#### Nadpisy h3
+<!-- #### Nadpisy h3
 
 - písmo **DM Sans**
 - velikost písma `1.5rem`
 - tloušťka písma `600`
-- výška řádku `1.2`
+- výška řádku `1.2` -->
 
 
 ### Sekce
 
 Následující platí obecně pro **sekce** a **patičku** stránky.
 
-- padding nahoře a dole `50px`
+<!-- - padding nahoře a dole `50px` -->
 - od tabletu dál se padding zvětší na `80px`
 
 ### Container
@@ -93,10 +95,10 @@ Container přidej vždy do každé sekce takto:
 </section>
 ```
 
-- **Na mobilu:**
+<!-- - **Na mobilu:**
   - maximální šířka `540px`
   - vycentrován horizontálně uprostřed stránky
-  - padding vpravo a vlevo `20px`
+  - padding vpravo a vlevo `20px` -->
 - **Od tabletu** a výše:
   - nastavená maximální šířka se změní na `1100px`
 
