@@ -142,3 +142,88 @@ footer {
 .button:focus {
   background-color: var(--color-primary-dark)
 }
+
+/*sekce jídelní lístek*/
+
+.listek{
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.jidelni_listek h3{
+  color: var(--color-secondary);
+}
+/* 
+.jidelni_listek {
+  display: inline-block;
+  text-align: center;
+} */
+
+.container_snidane {
+  border: 1px solid var(--color-secondary-bright);
+  text-align: center;
+  padding: 30px 20px 30px 20px;
+  border-radius: var(--radius);
+  margin-bottom: 30px;
+}
+
+.logo_snidane {
+  display: block;
+  margin: 0 auto;
+}
+
+.container_hlavni_jidla {
+  border: 1px solid var(--color-secondary-bright);
+  text-align: center;
+  padding: 30px 20px 30px 20px;
+  border-radius: var(--radius);
+  margin-bottom: 30px;
+}
+
+.logo_hlavni_jidla {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+}
+
+.container_grill {
+  border: 1px solid var(--color-secondary-bright);
+  text-align: center;
+  padding: 30px 20px 30px 20px;
+  border-radius: var(--radius);
+  margin-bottom: 30px;
+}
+
+.logo_grill {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+}
+
+.container_napoje {
+  border: 1px solid var(--color-secondary-bright);
+  text-align: center;
+  padding: 30px 20px 30px 20px;
+  border-radius: var(--radius);
+  margin-bottom: 30px;
+}
+
+.logo_napoje {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+}
+
+.button_menu {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.button_menu:hover,
+.button_menu:focus{
+  text-decoration: underline;
+}
+
