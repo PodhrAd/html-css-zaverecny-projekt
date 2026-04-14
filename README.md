@@ -107,13 +107,13 @@ Container přidej vždy do každé sekce takto:
 Tlačítko se chová také responzivně, mění se mu velikost písma a padding.
 
 - **Na mobilu:**
-  - `display: inline-block;`, aby šel tlačítku nastavit padding
+  <!-- - `display: inline-block;`, aby šel tlačítku nastavit padding
   - padding nahoře a dole `15px`, vpravo a vlevo `30px`
   - velikost písma `1rem`
   - tloušťka písma `600`
   - písmo je nepodtržené
   - barva textu bílá
-  - barva pozadí `--color-primary`
+  - barva pozadí `--color-primary` -->
   - při najetí myší (nebo klávesnicí) se barva pozadí změní na `--color-primary-dark`
   - border radius `100vw` (tlačítko bude na koncích vždy perfektně kulaté, nezávisle na tom, jak bude velké)
 - **Od tabletu** výše:
@@ -170,10 +170,10 @@ Na mobilu jsou logo a menu **pod sebou**, od tabletu výše jsou **vedle sebe**,
 
 - mezi nadpisem a kartičkami je rozestup `40px`
 - kartičky jsou:
-  - **na mobilu** pod sebou
+  <!-- - **na mobilu** pod sebou -->
   - **na tabletu** 2 vedle sebe a pod nimi další 2 (nápověda viz dále)
   - **na desktopu** všechny 4 kartičky vedle sebe
-- mezi kartičkami je rozestup `30px`
+<!-- - mezi kartičkami je rozestup `30px`
 - kartička má padding nahoře a dole `30px`, vpravo a vlevo `20px`
 - vycentrovaný text
 - rámeček `1px` barvou `--color-secondary-bright`
@@ -181,7 +181,7 @@ Na mobilu jsou logo a menu **pod sebou**, od tabletu výše jsou **vedle sebe**,
 - **ikona** uvnitř kartičky má velikost `40px` x `40px`
 - **nadpis** v kartičce je barvou `--color-secondary`
 - **odkaz** na spodku kartičky je barvou `--color-primary`, je nepodtržený, ale podtrhne se při najetí myší (nebo klávesnicí)
-- vertikální rozestup mezi prvky v kartičce je `20px`
+- vertikální rozestup mezi prvky v kartičce je `20px` -->
 
 ![Jídelní lístek](assets/jidelni-listek.png)
 
@@ -201,20 +201,20 @@ Na mobilu jsou logo a menu **pod sebou**, od tabletu výše jsou **vedle sebe**,
 
 Sekce je rozdělená na dvě poloviny, které jsou na mobilu pod sebou, na tabletu a desktopu vedle sebe a jsou stejně široké. Když jsou sloupce vedle sebe, je mezi nimi rozestup `60px`.
 
-Sekce má barvu pozadí `--color-section-bg`.
+<!-- Sekce má barvu pozadí `--color-section-bg`. -->
 
-⚠️ **Pozor:**
+<!-- ⚠️ **Pozor:**
 Pro obrázek s jídlem přidej element `<picture>` a zajisti, aby:
 - **na mobilu** se zobrazoval široký obrázek *rozvoz-na-sirku.jpg*
-- **od tabletu** výše se zobrazoval vysoký obrázek *rozvoz-na-vysku.jpg*
+- **od tabletu** výše se zobrazoval vysoký obrázek *rozvoz-na-vysku.jpg* -->
 
 ![Picture](assets/picture.png)
 
 - mezi prvky vedle obrázku jsou rozestupy `40px`
-- **ikony** jsou velké `40px` x `40px`
+<!-- - **ikony** jsou velké `40px` x `40px` -->
 - **text vedle ikon** má:
-  - velikost `1.25rem`
-  - tloušťku písma `500`
+  <!-- - velikost `1.25rem` -->
+  <!-- - tloušťku písma `500` -->
   - barvu `--color-secondary-dark`
 
 ![Rozvoz jídla](assets/rozvoz.png)

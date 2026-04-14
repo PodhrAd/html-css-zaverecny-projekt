@@ -84,30 +84,36 @@
   <!-- sekce ROZVOZ -->
   <section class="rozvoz">
     <div class="container">
-    <img src="images/rozvoz-na-sirku.jpg" alt="Rozvoz jídla domů">
+          <picture>
+          <img class="obrazek_rozvoz" src="images/rozvoz-na-sirku.jpg" alt="Rozvoz jídla domů">
+          <source class="obrazek_rozvoz_tablet" srcset="images/rozvoz-na-vysku.jpg" media="(min-width: 768px)">
+          </picture>
 
     <h2>Nejrychlejší rozvoz jídla ve městě</h2>
 
-    <ul>
-      <li>
-        <img src="images/hodiny.svg" alt="" width="40" height="40">
-        Dovezeme do 30 minut
-      </li>
-      <li>
-        <img src="images/cerstve.svg" alt="" width="40" height="40">
-        Vždy česrtvě uvařené
-      </li>
-      <li>
-        <img src="images/online.svg" alt="" width="40" height="40">
-        Objednáte online
-      </li>
-    </ul>
+      <div class="rozvoz_odrazky">
+        <ul>
+          <li>
+            <img src="images/hodiny.svg" alt="" width="40" height="40">
+            <span>Dovezeme do 30 minut</span>
+          </li>
+          <li>
+            <img src="images/cerstve.svg" alt="" width="40" height="40">
+            <span>Vždy česrtvě uvařené</span>
+          </li>
+          <li>
+            <img src="images/online.svg" alt="" width="40" height="40">
+            <span>Objednáte online</span>
+          </li>
+        </ul>
+      </div>
 
-    <p>Máte hlad a nechce se vám vařit? My to chápeme! Objednejte si u nás a my vám jídlo doručíme co nejrychleji až ke dveřím - teplé, voňavé a připravené s láskou. </p>
-
-    <a href="#">Objednat jídlo</a>
-  </div>
-</section>
+      <div class="popis_rozvoz">
+        <p>Máte hlad a nechce se vám vařit? My to chápeme! Objednejte si u nás a my vám jídlo doručíme co nejrychleji až ke dveřím - teplé, voňavé a připravené s láskou. </p>
+      </div>
+        <a class="button_objednat" href="#">Objednat jídlo</a>
+    </div>
+  </section>
 
 
 </main>
