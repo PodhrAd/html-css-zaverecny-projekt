@@ -243,6 +243,7 @@ width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
+  color: var(--color-secondary-dark);
 }
 
 .rozvoz_odrazky img {
@@ -254,8 +255,16 @@ width: 100%;
   font-weight: 500;
   align-items: center;
   margin-bottom: 15px;
-  color: var(--color-secondary-dark);
 }
+
+/*ten odsadit a vycentrovat jde ještě bez toho, aniž bych text obalila <span></span>, a sice:
+
+li{
+  display: flex;
+  align-items: center;
+}
+
+a jednotlivé li oddělíme gapem, protože je tam to flex --> zkusím v patičce a uvidíme*/
 
 .popis_rozvoz{
   margin: 10px 0 10px 0;
@@ -276,4 +285,44 @@ width: 100%;
 .button_objednat:hover,
 .button_objednat:focus {
   background-color: var(--color-primary-dark);
+}
+
+/*sekce patička*/
+
+.paticka {
+  background-color: var(--color-footer-bg);
+  color: var(--color-secondary-light);
+}
+
+.logo_paticka img {
+  height: 40px;
+}
+
+.logo_paticka {
+  padding-top: 40px;
+}
+
+.adresa {
+  margin-bottom: 20px;
+}
+
+.link_tree ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.link_tree li {
+  display: inline-block;
+  flex-direction: row;
+  padding-right: 10px;
+}
+
+.link_tree .link {
+  color: var(--color-secondary-bright);
+}
+
+.copyright {
+  padding: 0 0 60px 0;
+  margin: 20px 0 0 0;
 }

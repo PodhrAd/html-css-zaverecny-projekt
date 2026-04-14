@@ -222,14 +222,14 @@ Pro obrázek s jídlem přidej element `<picture>` a zajisti, aby:
 
 ## Patička
 
-- pozadí patičky `--color-footer-bg`
+<!-- - pozadí patičky `--color-footer-bg`
 - barva textu `--color-secondary-light`
 - barva odkazů v patičce `--color-secondary-bright`
 - výška loga `40px`
 - patička je rozdělená na dvě poloviny:
   - logo a adresa
   - menu a copyright
-- **na mobilu** jsou obě poloviny pod sebou
+- **na mobilu** jsou obě poloviny pod sebou -->
 - **od tabletu** a výše jsou obě poloviny vedle sebe na opačných koncích patičky
 - když jsou prvky nad sebou, je mezi nimi rozestup `20px`
 
