@@ -52,8 +52,8 @@ Stránka má tři responzivní varianty, říkejme jim zjednodušeně *mobil*, *
 <!-- - písmo **Playfair Display** -->
 - velikost písma:
   <!-- - mobil: `3.5rem` -->
-  - tablet: `4rem`
-  - desktop: `5rem`
+  <!-- - tablet: `4rem`
+  - desktop: `5rem` -->
 <!-- - tloušťka písma `400`
 - výška řádku `1` -->
 
@@ -62,8 +62,8 @@ Stránka má tři responzivní varianty, říkejme jim zjednodušeně *mobil*, *
 <!-- - písmo **Playfair Display** -->
 - velikost písma:
   <!-- - mobil: `2.5rem` -->
-  - tablet: `3rem`
-  - desktop: `3.5rem`
+  <!-- - tablet: `3rem`
+  - desktop: `3.5rem` -->
 <!-- - tloušťka písma `500`
 - výška řádku `1.2` -->
 
@@ -80,7 +80,7 @@ Stránka má tři responzivní varianty, říkejme jim zjednodušeně *mobil*, *
 Následující platí obecně pro **sekce** a **patičku** stránky.
 
 <!-- - padding nahoře a dole `50px` -->
-- od tabletu dál se padding zvětší na `80px`
+<!-- - od tabletu dál se padding zvětší na `80px` -->
 
 ### Container
 
@@ -99,8 +99,8 @@ Container přidej vždy do každé sekce takto:
   - maximální šířka `540px`
   - vycentrován horizontálně uprostřed stránky
   - padding vpravo a vlevo `20px` -->
-- **Od tabletu** a výše:
-  - nastavená maximální šířka se změní na `1100px`
+<!-- - **Od tabletu** a výše:
+  - nastavená maximální šířka se změní na `1100px` -->
 
 ### Tlačítko
 
