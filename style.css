@@ -87,6 +87,11 @@ footer {
 }
 
 /*Navigace*/
+
+.hlavicka .navigace {
+  margin-bottom: 25px;
+}
+
 .navigace{
   display: inline-block;
 }
@@ -316,6 +321,10 @@ a jednotlivé li oddělíme gapem, protože je tam to flex --> zkusím v patičc
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.hlavicka .navigace {
+  margin-bottom: 0;
 }
 
 .navigace {
