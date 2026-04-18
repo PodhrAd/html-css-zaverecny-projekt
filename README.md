@@ -156,12 +156,12 @@ Na mobilu jsou logo a menu **pod sebou**, od tabletu výše jsou **vedle sebe**,
 - obrázek na pozadí kompletně pokrývá plochu banneru
 - sekce s bannerem má padding nahoře a dole:
   <!-- - **na mobilu** `100px` -->
-  - **na tabletu** `120px`
-  - **na desktopu** `150px`
+  <!-- - **na tabletu** `120px`
+  - **na desktopu** `150px` -->
 <!-- - mezi nadpisem a textem, a mezi textem a tlačítkem je rozestup `30px` -->
 - text mezi nadpisem a tlačítkem:
   <!-- - **na mobilu** velikost textu `1.125rem` -->
-  - **od tabletu** výše je velikost textu `1.25rem`
+  <!-- - **od tabletu** výše je velikost textu `1.25rem` -->
 
 ![Hero banner](assets/hero.png)
 

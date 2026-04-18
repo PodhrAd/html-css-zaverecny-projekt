@@ -113,10 +113,12 @@ footer {
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .hero_nadpis{
-  padding: 100px 0 30px 0;
+  padding-bottom: 30px;
   margin: 0;
 }
 
@@ -132,7 +134,6 @@ footer {
   background-color: var(--color-primary);
   border-radius: 100vw;
   padding: 15px 30px;
-  margin-bottom: 100px;
   color: white;
   font-size: 1rem;
   font-weight: 600;
@@ -147,7 +148,8 @@ footer {
 
 .listek{
   text-align: center;
-  margin: 0 0 40px 0;
+  margin-bottom: 40px;
+  margin-top: 1.5rem;
 }
 
 .jidelni_listek h3{
@@ -159,7 +161,7 @@ footer {
   text-align: center;
 } */
 
-.container_snidane {
+.container_jidelak {
   border: 1px solid var(--color-secondary-bright);
   text-align: center;
   padding: 30px 20px;
@@ -167,54 +169,9 @@ footer {
   margin-bottom: 30px;
 }
 
-.logo_snidane {
+.logo_jidelak {
   display: block;
   margin: 0 auto;
-}
-
-.container_hlavni_jidla {
-  border: 1px solid var(--color-secondary-bright);
-  text-align: center;
-  padding: 30px 20px;
-  border-radius: var(--radius);
-  margin-bottom: 30px;
-}
-
-.logo_hlavni_jidla {
-  display: block;
-  margin: 0 auto;
-  width: 40px;
-  height: 40px;
-}
-
-.container_grill {
-  border: 1px solid var(--color-secondary-bright);
-  text-align: center;
-  padding: 30px 20px;
-  border-radius: var(--radius);
-  margin-bottom: 30px;
-}
-
-.logo_grill {
-  display: block;
-  margin: 0 auto;
-  width: 40px;
-  height: 40px;
-}
-
-.container_napoje {
-  border: 1px solid var(--color-secondary-bright);
-  text-align: center;
-  padding: 30px 20px;
-  border-radius: var(--radius);
-  margin-bottom: 30px;
-}
-
-.logo_napoje {
-  display: block;
-  margin: 0 auto;
-  width: 40px;
-  height: 40px;
 }
 
 .button_menu {
@@ -365,9 +322,42 @@ a jednotlivé li oddělíme gapem, protože je tam to flex --> zkusím v patičc
   display: flex;
 }
 
-  .button {
-    padding: 20px 40px;
-    font-size: 1.125rem;
+/*stylování HERO banneru - zážitek z jídla*/
+.button {
+  padding: 20px 40px;
+  font-size: 1.125rem;
+}
+
+.hero_nadpis{
+  padding: 120px 0 30px 0;
+}
+
+.hero_popis{
+  font-size: 1.25rem;
+}
+
+/*stylování hero banneru - zážitek z jídla*/
+
+.button {
+  padding: 20px 40px;
+  font-size: 1.125rem;
+}
+
+/*stylování sekce jídelní lístek*/
+
+.listek{
+  margin-top: 3rem;
+}
+
+.container_jidelni_listek {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+}
+
+.container_jidelak {
+  width: calc((100% - 30px) / 2);
 }
 
 }
@@ -406,6 +396,19 @@ a jednotlivé li oddělíme gapem, protože je tam to flex --> zkusím v patičc
 
 .navigace {
   display: flex;
+}
+
+/*stylování HERO banneru*/
+.hero_nadpis{
+  padding: 150px 0 30px 0;
+}
+
+/*stylování sekce jídelní lístek*/
+
+.container_jidelni_listek {
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: 30px;
 }
 
 }
