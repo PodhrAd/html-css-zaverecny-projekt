@@ -171,8 +171,8 @@ Na mobilu jsou logo a menu **pod sebou**, od tabletu výše jsou **vedle sebe**,
 - mezi nadpisem a kartičkami je rozestup `40px`
 - kartičky jsou:
   <!-- - **na mobilu** pod sebou -->
-  - **na tabletu** 2 vedle sebe a pod nimi další 2 (nápověda viz dále)
-  - **na desktopu** všechny 4 kartičky vedle sebe
+  <!-- - **na tabletu** 2 vedle sebe a pod nimi další 2 (nápověda viz dále)
+  - **na desktopu** všechny 4 kartičky vedle sebe -->
 <!-- - mezi kartičkami je rozestup `30px`
 - kartička má padding nahoře a dole `30px`, vpravo a vlevo `20px`
 - vycentrovaný text

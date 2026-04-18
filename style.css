@@ -35,6 +35,7 @@ body{
   font-family: var(--styl-pisma-ostatni);
   font-size: 1.125rem;
   color: var(--color-text);
+  margin: 0;
 }
 
 h1,
@@ -358,6 +359,43 @@ a jednotlivé li oddělíme gapem, protože je tam to flex --> zkusím v patičc
 
 .container_jidelak {
   width: calc((100% - 30px) / 2);
+}
+
+/*stylování sekce - rozvoz jídla*/
+
+.rozvoz .container {
+  display: flex;
+  gap: 60px;
+}
+
+.rozvoz_kure {
+  width: 100%;
+}
+
+.obrazek_rozvoz {
+  display: flex;
+  margin-top: 0; /*odstranění marginu z obrázku, který je nastavený na telefon, dělalo to neplechu*/
+  width: 100%
+}
+
+.rozvoz_texty {
+  display: flex;
+  flex-direction: column;
+}
+
+.rozvoz_texty h2{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.popis_rozvoz p {
+  margin: 10px 0;
+}
+
+.button_objednat {
+  padding: 20px 40px;
+  font-size: 1.125rem;
+  align-self: flex-start;
 }
 
 }
