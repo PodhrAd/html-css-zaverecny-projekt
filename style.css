@@ -71,7 +71,7 @@ footer {
   max-width: 540px;
   margin: 0 auto;
   align-items: center; /*tady si nejsem jistá, jestli to vycentruje tu sekci doprostřed*/
-  padding: 0 20px 0 20px;
+  padding: 0 20px;
 }
 
 /*sekce hlavička a navigace*/
@@ -83,7 +83,7 @@ footer {
 .logo_brisko{
   display: block;
   text-align: center;
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
 }
 
 /*Navigace*/
@@ -93,7 +93,7 @@ footer {
 
 .nav__link{
   text-decoration: none;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 15px;
   font-size: 1.25rem;
   font-weight: 500;
   color: var(--color-secondary-dark);
@@ -107,7 +107,7 @@ footer {
 
 /*Sekce HERO s tlačítkem*/
 
-.hero .container {
+.hero {
   background-image: url(images/hero.jpg);
   background-position: center;
   background-size: 100%;
@@ -131,7 +131,7 @@ footer {
   text-decoration: none;
   background-color: var(--color-primary);
   border-radius: 100vw;
-  padding: 15px 30px 15px 30px;
+  padding: 15px 30px;
   margin-bottom: 100px;
   color: white;
   font-size: 1rem;
@@ -162,7 +162,7 @@ footer {
 .container_snidane {
   border: 1px solid var(--color-secondary-bright);
   text-align: center;
-  padding: 30px 20px 30px 20px;
+  padding: 30px 20px;
   border-radius: var(--radius);
   margin-bottom: 30px;
 }
@@ -175,7 +175,7 @@ footer {
 .container_hlavni_jidla {
   border: 1px solid var(--color-secondary-bright);
   text-align: center;
-  padding: 30px 20px 30px 20px;
+  padding: 30px 20px;
   border-radius: var(--radius);
   margin-bottom: 30px;
 }
@@ -190,7 +190,7 @@ footer {
 .container_grill {
   border: 1px solid var(--color-secondary-bright);
   text-align: center;
-  padding: 30px 20px 30px 20px;
+  padding: 30px 20px;
   border-radius: var(--radius);
   margin-bottom: 30px;
 }
@@ -205,7 +205,7 @@ footer {
 .container_napoje {
   border: 1px solid var(--color-secondary-bright);
   text-align: center;
-  padding: 30px 20px 30px 20px;
+  padding: 30px 20px;
   border-radius: var(--radius);
   margin-bottom: 30px;
 }
@@ -273,7 +273,7 @@ a jednotlivé li oddělíme gapem, protože je tam to flex --> zkusím v patičc
 .button_objednat {
   display: inline-block;
   text-decoration: none;
-  padding: 15px 30px 15px 30px;
+  padding: 15px 30px;
   font-size: 1rem;
   font-weight: 600;
   color: white;
@@ -342,10 +342,34 @@ a jednotlivé li oddělíme gapem, protože je tam to flex --> zkusím v patičc
   max-width: 1100px;
 }
 
-  section, footer {
+  /* section, footer {
     padding-top: 80px;
     padding-bottom: 80px;
+  } */
+
+  .nav__link{
+  padding: 10px 20px;
   }
+
+.logo_brisko img{
+  height: 45px;
+}
+
+.hlavicka .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigace {
+  display: flex;
+}
+
+  .button {
+    padding: 20px 40px;
+    font-size: 1.125rem;
+}
+
 }
 
 /*Stylování deskop*/
@@ -363,8 +387,26 @@ a jednotlivé li oddělíme gapem, protože je tam to flex --> zkusím v patičc
   max-width: 1100px;
 }
 
-  section, footer {
+  /* section, footer {
     padding-top: 80px;
     padding-bottom: 80px;
-  }
+  } */
+
+  /*stylování loga a navigace*/
+
+.logo_brisko img{
+  height: 45px;
 }
+
+.hlavicka .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigace {
+  display: flex;
+}
+
+}
+
